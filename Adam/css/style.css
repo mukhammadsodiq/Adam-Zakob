@@ -7,6 +7,7 @@
 body{
     font-family: 'Red Hat Display', sans-serif;
 }
+
 .container{
     width: 1237px;
     margin-left: auto;
@@ -56,32 +57,32 @@ body{
 .header-btn:hover{
     background-color: hsl(0, 0%, 96%);
 }
-.hero-section{
+.hero-content{
     display: flex;
     justify-content: end;
 }
-#hero-sec-h1{
+#hero-content-div{
     margin-top: 125px;
 }
-.hero-sec-name{
+.hero-content-name{
     font-weight: 700;
     font-size: 60px;
     line-height: 72px;
 }
-.hero-sec-intro{
+.hero-content-intro{
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: #666666;
 }
-.hero-sec-h2{
+.hero-content-text{
     font-weight: normal;
     font-size: 24px;
     line-height: 32px;
     color: #25202F;
     margin-top: 20px;
 }
-.hero-sec-link{
+.hero-content-link{
     margin-top: 50px;
     display: inline-block;
     background: #8643DC;
@@ -96,7 +97,7 @@ body{
 .hero-sec-link:hover{
      background-color: #6b2fb9;
 }
-.hero-sec-container{
+.hero-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,16 +105,16 @@ body{
 .hero-img{
     margin-right: 100px;
 }
-.features-sec-div{
+.desc{
     margin-top: 100px;
 }
-.features-sec-intro{
+.desc-intro{
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     color: #8643DC;
 }
-.features-sec-hr{
+.desc-hr{
     width: 50px;
     height: 2px;
     left: 165px;
@@ -122,23 +123,23 @@ body{
     border: none;
     margin-top: 10px;
 }
-.features-sec-h3{
+.desc-excerpt{
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     color: #25202F;
     margin-top: 15px;
 }
-.features-sec-list{
+.excerpt-list{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
-.features-sec-items{
+.excerpt-items{
     margin: 10px;
 }
-.features-sec-h4{
+.excerpt-title{
     display: inline-block;
     font-weight: 500;
     font-size: 24px;
@@ -146,27 +147,27 @@ body{
     color: #25202F;
     margin-left: 20px;
 }
-.features-sec-p{
+.excerpt-p{
     margin-top: 21px;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
     color: #47444E;
     }
-.features-sec-logo{
+.excerpt-logo{
 display: flex;
 align-items: center;
 }
-.cta-sec-div{
+.popup-div{
     margin-top: 150px;
 }
-.cta-sec-p{
+.popup-p{
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     color: #8643DC;
 }
-.cta-sec-hr{
+.popup-hr{
     width: 50px;
     height: 2px;
     left: 165px;
@@ -175,23 +176,23 @@ align-items: center;
     border: none;
     margin-top: 10px;
 }
-.cta-sec-h3{
+.popup-h3{
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     color: #25202F;
     margin-top: 15px;
 }
-.cta-section-division{
+.popup-section{
     display: flex;
     justify-content: space-between;
     
 }
 
-.cta-sec-link{
+.popup-icon{
     margin-left: 13px;
 }
-.cta-sec-a{
+.popup-link{
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
@@ -199,20 +200,20 @@ align-items: center;
     color: #25202F;
 }
  
-.cta-sec-for-img{
+.popup-img{
     margin-top: 30px;
     margin-left: 90px;
 }
-.stats-sec-title{
+.thumb-title{
     margin-top: 168px;
 }
-.stats-sec-p{
+.thumb-p{
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     color: #8643DC;
 }
-.stats-sec-hr{
+.thumb-hr{
     width: 50px;
     height: 2px;
     left: 165px;
@@ -221,29 +222,29 @@ align-items: center;
     border: none;
     margin-top: 10px;
 }
-.stats-sec-h3{
+.thumb-h3{
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     color: #25202F;
     margin-top: 15px;
 }
-.stats-sec-list{
+.thumb-list{
     margin-top: 44px;
     display: flex;
     list-style: none;
     box-sizing: border-box;
 }
-.tea-sec-div{
+.avatar-div{
     margin-top: 150px;
 }
-.team-sec-p{
+.avatar-p{
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;    
     color: #8643DC;
 }
-.team-sec-hr{
+.avatar-hr{
     width: 50px;
     height: 2px;
     left: 173px;
@@ -252,23 +253,23 @@ align-items: center;
     border: none;
     margin-top: 10px;
 }
-.team-sec-h3{
+.avatar-h3{
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     color: #25202F;
     margin-top: 15px;
 }
-.team-sec-person{
+.avatar-person{
     margin-top: 59px;
     display: flex;
     justify-content: space-between;
 }
-.team-sec-mark{
+.avatar-mark{
     margin-left: 250px;
     
 }
-.team-sec-quote{
+.avatar-text{
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
@@ -276,25 +277,25 @@ align-items: center;
     color: #636066;
     margin-top: 25px;
 }
-.team-sec-ceo{
+.avatar-userpic{
     display: flex;
     justify-content: space-between;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
-.team-sec-michal{
+.avatar-pic{
     margin-top: 25px;
     margin-left: 575px;
 }
-.team-sec-main{
+.avatar-subject{
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
     color: #000000;
     margin-top: 20px;
 }
-.team-sec-ceo-mzp{
+.avatar-picture{
     font-weight: normal;
     font-size: 16px;
     line-height: 21px;
@@ -302,20 +303,20 @@ align-items: center;
     margin-top: 5px;
     margin-left: 10px;
 }
-.team-sec-pager{
+.avatar-pager{
     margin-top: 90px;
 }
-.news-sec-div{
+.subtitle-blog{
     margin-top: 100px;
     display: inline-block;
 }
-.new-sec-span{
+.subtitle-span{
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     color: #8643DC;
 }
-.news-sec-hr{
+.subtitle-hr{
     width: 50px;
     height: 2px;
     left: 165px;
@@ -324,7 +325,7 @@ align-items: center;
     border: none;
     margin-top: 10px;
 }
-.news-sec-h3{
+.subtitle-h3{
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
@@ -332,11 +333,11 @@ align-items: center;
     margin-top: 15px;
     
 }
-.news-sec-images{
+.subtitle-images{
     margin-left: 25px;
     margin-top: 100px;
 }
-#news-section{
+#blog{
     display: flex;
 }
 .time{
@@ -345,41 +346,41 @@ align-items: center;
     line-height: 21px;
     color: #8643DC;
 }
-.news-sec-p{
+.subtitle-p{
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
     color: #000000;
     margin-top: 10px;
 }
-.news-sec-back-img{
+.subtitle-back-img{
     background-image: url('../images/newsfeed.png');
     width: 255px;
     height: 350px;
     
 }
-.text-in-img{
+.subtitle-text-img{
     margin-top: 225px;
     margin-left: 20px;
 }
-.news-sec-back-p{
+.subtitle-back-p{
     margin-top: 2px;
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
     color: #FFFFFF;
 }
-.news-sec-back-time{
+.subtitle-time{
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
 }
-.news-sec-back-img{
+.subtitle-back-img{
     margin-left: 30px;
     margin-top: 100px;
 }
-.news-sec-second-back-img{
+.subtitle-back-image{
     background-image: url('../images/ux-img.png');
     width: 255px;
     height: 350px;
@@ -390,73 +391,19 @@ align-items: center;
     margin-top: 240px;
     margin-left: 20px;
 }
+
 .time-text{
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
 }
-.second-back-img-p{
+.subtitle-back-img-p{
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
     color: #FFFFFF;
     margin-top: 10px;
-}
-#contact-section{
-    background-color: rgba(225, 207, 247, 0.17);
-    margin-top: 100px;
-}
-.contact-sec-div{
-    display: flex;
-    justify-content: space-between;
-}
-.contact-intro{
-    margin-top: 150px;
-}
-.contact-span{
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: #8643DC;
-}
-.contact-sec-hr{
-    width: 50px;
-    height: 2px;
-    left: 165px;
-    top: 3907px;
-    background: #8643DC;
-    border: none;
-    margin-top: 10px;
-}
-.contact-sec-h3{
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 52px;
-    color: #21232D;
-    margin-top: 20px;
-}
-.contact-email{
-    margin-top: 204px;
-}
-.email{
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    text-decoration-line: underline;
-    text-transform: lowercase;
-    color: #8643DC;
-}
-
-.input-style{
-    border: none;
-    margin: 10px;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 26px;
-    color: #A8A0B0;
-    padding: 20px;
-    background-color: rgba(252, 246, 246, 0.17);
 }
 
 .footer{
